@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="500"
+        android:fromXDelta="100%p"
+        android:toXDelta="0"
+        android:fromYDelta="50%p"
+        android:toYDelta="0"
+        android:interpolator="@android:anim/bounce_interpolator" />
+
+        <!--
+        fromXDelta: posicion inicial del lado izquierdo de la Activity destino (si pongo 50%p, al iniciar la transicion coloca directamente ese lado en la mitad de la pantalla
+        toXDelta: posicion inicial del lado izquierdo de la Activity destino. Si pongo 0, ese lado estará en el margen izquierdo de la pantalla
+        -->
+
+</set>

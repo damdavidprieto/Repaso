@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- La nueva Activity aparece “desde arriba” hasta ocupar toda la pantalla en el momento en el que la Activity de origen desaparece -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="2600"
+        android:fromXScale="1.5"
+        android:fromYScale="1.5"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:pivotX="10%p"
+        android:pivotY="10%p"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+
+</set>

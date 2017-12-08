@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Es un desplazamiento en el que la Activity actual se va hacia el fondo y se difumina, desapareciendo al ocupar el 70% de la pantalla -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:zAdjustment="top" >
+
+    <scale
+        android:duration="2600"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="10%p"
+        android:pivotY="10%p"
+        android:toXScale=".7"
+        android:toYScale=".7" />
+
+    <alpha
+        android:duration="600"
+        android:fromAlpha="1.0"
+        android:toAlpha="0" />
+
+</set>

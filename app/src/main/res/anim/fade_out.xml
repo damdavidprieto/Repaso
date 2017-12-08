@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <alpha xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="2000"
+        android:fromAlpha="0.5"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:repeatCount="0"
+        android:toAlpha="0.0" />
+    <!--
+        duration: tiempo en milisegundos del efecto
+        fromAlpha: grado de opacidad de partida donde el 0.0 es opacidad completa y el 1.0 transparencia completa
+        interpolator: tipo de interpolación en la transición (Existen muchos tipos y normal/ en tiempos reducidos no se aprecia diferencias entre unos y otros)
+        repeatCount: repite el efecto. Si la duration es 100, y el repeatCount vale 4, entonces la transicion completa durará 400
+        toAlpha: grado de opacidad final donde el 0.0 es opacidad completa y el 1.0 transparencia completa
+    -->
+
+</set>

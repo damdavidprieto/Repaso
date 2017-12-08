@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.entrega.MainActivity"
+    android:background="@drawable/pantallacarga">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titulo"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:text="@string/asunto"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textAsunto"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@android:color/white" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextAsunto"
+        android:background="@color/colorAccent"
+        android:minHeight="30dp"
+        android:prompt="@string/prioridad"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textCuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinner"
+        android:text="@string/cuerpo"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextCuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textCuerpo"
+        android:gravity="top"
+        android:singleLine="false"
+        android:text=""
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextCuerpo"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="guardar"
+            android:text="@string/guardar" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Rising Galaxy</string>
+    <string name="titulo">Título</string>
+    <string name="asunto">Asunto</string>
+    <string name="cuerpo">Cuerpo</string>
+    <string name="abrir">Abrir</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="borrar">Borar</string>
+    <string name="guardar">Guardar</string>
+    <string name="prioridad">Prioridad</string>
+    <string name="notas">Notas</string>
+    <string name="colores">Colores</string>
+
+    <string-array name="combo">
+        <item>Prioridad Alta</item>
+        <item>Prioridad Media</item>
+        <item>Prioridad Baja</item>
+    </string-array>
+</resources>
