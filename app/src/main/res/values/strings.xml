@@ -10,6 +10,11 @@
     <string name="prioridad">Prioridad</string>
     <string name="notas">Notas</string>
     <string name="colores">Colores</string>
+    <string name="colortit">Shared Preferences</string>
+    <string name="rojo">Rojo</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="alfa">Alfa</string>
 
     <string-array name="combo">
         <item>Prioridad Alta</item>

@@ -20,7 +20,7 @@ public class MenuPrincipal extends AppCompatActivity {
     public void coloresEvento(View view){
         mp=MediaPlayer.create(this, R.raw.scifidoor);
         mp.start();
-        Intent mainIntent = new Intent().setClass(MenuPrincipal.this, ListViewActivity.class);
+        Intent mainIntent = new Intent().setClass(MenuPrincipal.this, ColoresAct.class);
         startActivity(mainIntent);
         overridePendingTransition(R.anim.zoom_back_in, R.anim.zoom_back_out);
     }
